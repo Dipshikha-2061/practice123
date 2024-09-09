@@ -1,0 +1,71 @@
+.flexbox{
+    border: 3px solid black;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    width: 40rem;
+    height: 17rem;
+    
+    box-sizing: border-box;
+    margin-left: 25rem;
+    background-color: rgb(171, 215, 216);
+    
+}
+.modest,label for{
+    text-decoration: none;
+    margin-right: 25px;
+}
+.row-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem; 
+    justify-content: center;
+    border-width: 1px;
+    margin-top: 20px;
+    
+    
+    
+
+}
+.row-wrapper2 {
+    text-align: right;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    border-width: 0px;
+    
+   
+    
+    
+}
+button[type="submit"]:hover {
+    background-color: rgb(176, 240, 211)
+    
+}
+button[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(236, 196, 196);
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+
+h3{
+   
+    text-align: center;
+}
+#phone
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button{
+        -webkit-appearance:none;
+    }
+
+
+    input{
+        margin-bottom: 15px;
+        border-width: thin;
+       }
+    input:focus{
+        outline: none;
+    }
+    
+    

@@ -1,0 +1,40 @@
+
+
+body {
+    background-image: url('download.jpeg');
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: rgb(17, 17, 27);
+}
+
+p {
+    color: blanchedalmond;
+    border: 2px solid powderblue;
+    padding: 30px;
+}
+
+.apply-button {
+    background-color: rgb(49, 127, 236);
+    border: none;
+    color: aliceblue;
+    border-radius: 25px;
+    height: 35px;
+    width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 6px;
+}
+
+.save-button {
+    background-color: white;
+    color: rgb(49, 127, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    height: 36px;
+    width: 110px;
+    border-color: rgb(49, 127, 236);
+    border-width: 0.6px;
+    border-style: solid;
+}
+

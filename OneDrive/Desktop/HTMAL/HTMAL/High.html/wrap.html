@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management Features</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .row-wrapper1, .row-wrapper2 {
+            flex: 1 1 calc(48% - 20px); /* Each item takes up roughly half the width minus some gap */
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .row-wrapper1:hover, .row-wrapper2:hover {
+            transform: translateY(-5px);
+        }
+
+        h4 {
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 18px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .row-wrapper1, .row-wrapper2 {
+                flex: 1 1 100%; /* Stacks the divs on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row-wrapper1">
+        <h4>Examination</h4>
+        <p>Administrating Assessments through general, letter grading, or integrated curriculum approaches.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>Accounts & Billing</h4>
+        <p>Managing financial transactions and student fees within a school.</p>
+    </div>
+    <div class="row-wrapper1">
+        <h4>Students Attendance</h4>
+        <p>Teachers can easily record students' attendance via web and mobile apps.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>Payroll Manage</h4>
+        <p>Efficient handling of employee salaries and deductions.</p>
+    </div>
+    <div class="row-wrapper1">
+        <h4>Staff Attendance</h4>
+        <p>Tracking staff attendance using a thumb device for seamless integration.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>SMS & Notice</h4>
+        <p>Quickly sending SMS & Notices using customized templates.</p>
+    </div>
+    <div class="row-wrapper1">
+        <h4>Academic Manage</h4>
+        <p>Managing academic details such as classes, sections, and subjects.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>Inventory Manage</h4>
+        <p>Managing inventory, including tracking stock levels, orders, and supplies.</p>
+    </div>
+    <div class="row-wrapper1">
+        <h4>Library</h4>
+        <p>Efficiently managing library resources with QR code scanning via mobile apps.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>Profile Manage</h4>
+        <p>Managing profiles and users for staff, students, and parents.</p>
+    </div>
+    <div class="row-wrapper1">
+        <h4>Assignment</h4>
+        <p>Streamlining homework/assignment distribution, submission, and evaluation.</p>
+    </div>
+    <div class="row-wrapper2">
+        <h4>Event Manage</h4>
+        <p>Coordinating school events, exam schedules, and holiday arrangements.</p>
+    </div>
+</div>
+
+</body>
+</html>

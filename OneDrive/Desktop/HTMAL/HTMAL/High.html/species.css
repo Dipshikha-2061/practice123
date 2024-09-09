@@ -1,0 +1,48 @@
+
+.fitem{
+
+    border-collapse:collapse ;
+       margin: 12px;
+       width:80px;
+       height:20px;
+        justify-content: center;
+        
+
+        
+       
+   }
+   .fitem a{
+       text-decoration: none;
+       color: white;
+       border-collapse: collapse;
+   }
+   .picture{
+       display:flex;
+       gap:40px;
+       justify-content: center;
+       margin-right: 2rem;
+       
+      
+   
+   }
+   img{
+       height: 250px;
+       width: 200px;
+       margin-top: 20px;
+       margin-left: 3rem;
+       border: 2px solid white;
+       border-radius: 30px;
+       
+   }
+   .text, .word{
+       font-style: italic;
+       font-size: larger;
+       
+       
+   
+   }
+   h2{
+    text-align:center;
+    margin-right: 2rem;
+    
+   }

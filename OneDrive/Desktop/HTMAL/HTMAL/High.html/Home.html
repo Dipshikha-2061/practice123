@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        #mail{
+            margin-left: 32px;
+        }
+        input[type="date"]::-webkit-calendar-picker-icon {
+            display: none;
+        }
+
+
+
+    </style>
+    <form action="process.php">
+        <label  for="fname">First Name</label>
+        <input type="text" value="ram" >
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+
+        <lable for="lname">Last Name</lable>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+
+        <lable for="mail">Email</lable>
+        <input type="text" id="mail" name="mail" placeholder="Email"><br>
+
+        <lable for="gender">Gender</lable>
+        <input type="radio" id="gender" name="gender" value="Male">
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+
+        <lable for="female">Female</lable>
+        <input type="radio" name="gender" value="others">
+        <lable for="others">Others</lable><br>
+
+        <lable for="car">I agree the terms and condtitons.</lable>
+        <input type="checkbox" name="mycar" id="car"><br>
+
+        <lable for="date">Enter your birthdate</lable>
+        <input type="date" name="date" id="date"  readonly><br>
+
+        <lable for="cars">Select your car</lable>
+        <select id="cars" name="cars">
+            <option value="Swift">Swift</option>
+            <option value="Thar">Thar</option>
+            <option value="ferrari">Ferrari</option>
+        </select><br>
+
+            <textarea name="message" rows="20" col="30"> The cat was playing in the garden.</textarea>
+            <br><br>
+         
+        
+
+        <lable for="submit"></lable>
+        <Input type="submit" name="done" id="submit">
+
+        
+
+        
+
+
+
+        
+
+
+    </form>
+    
+</body>
+</html>
